@@ -1,3 +1,20 @@
+/* CUSTOM FONTS */
+@font-face {
+  font-family: 'kionaregular';
+  src: url('./fonts/kiona-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'kionaitallic';
+  src: url('./fonts/kiona-itallic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +27,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-font {
+  font-family: 'kionaregular';
+  font-weight: bolder;
+  font-style: normal;
 }
