@@ -50,3 +50,9 @@ code {
 
 
 /* NAVBAR END */
+
+/* BODY */
+
+body {
+  background-color: gb(0, 30, 60);
+}

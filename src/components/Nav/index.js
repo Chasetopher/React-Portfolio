@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { createTheme } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -14,7 +15,13 @@ import logo from '../../assets/images/logo.png';
 
 const Nav = () => {
 
-const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
+  const darkTheme = createTheme({
+    palette: {
+      mode: 'dark',
+    },
+  });
+
+  const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
@@ -80,7 +87,7 @@ const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
+        <AppBar position="sticky">
           <Toolbar>
             <Typography
               variant="h6"
