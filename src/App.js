@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
