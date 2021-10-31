@@ -9,7 +9,10 @@ const Footer = () => {
       </a>
       <span className="text-muted">© 2021 Company, Inc</span>
     <ul>
-    <img src="/assets/img/bootstrap.svg" alt="Bootstrap" width="32" height="32" />
+        <li><img src="../../assets/images/linkedin.svg" alt="Linkedin" width="32" height="32" /></li>
+        <li><img src="../../assets/images/github.svg" alt="Github" width="32" height="32" /></li>
+        <li><img src="../../assets/images/at.svg" alt="Email" width="32" height="32" /></li>
+        <li><img src="../../assets/images/file-earmark-arrow-down.svg" alt="Resume" width="32" height="32" /></li>
     </ul>
     </div>
   </footer>
