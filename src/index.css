@@ -29,9 +29,22 @@ code {
     monospace;
 }
 
+/* NAVBAR START */
+
 .nav-font {
   font-family: 'kionaregular';
   font-weight: bolder;
   font-style: normal;
+  font-size: x-large;
 }
 
+.navbar {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.nav-link {
+  margin-right: 25px;
+}
+
+/* NAVBAR END */
