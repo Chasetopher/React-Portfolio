@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+//Material UI custom theme
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 //material UI recommended fonts//
 import '@fontsource/roboto/300.css';
@@ -10,14 +11,30 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+//kiona fonts
+
+
+//custom UI theme
+const theme = createTheme({
+  palette: {
+    primary: {
+      //background color
+      main: "#001E3C"
+    },
+    secondary: {
+      //nav/footer color
+      main: "#2F3A45"
+    }
+  }
+})
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

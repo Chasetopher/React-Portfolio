@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { createTheme } from '@mui/material/styles';
+import logo from '../../assets/images/logo.png';
+//MATERIAL UI START//
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,15 +12,9 @@ import Menu from '@mui/material/Menu';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-import logo from '../../assets/images/logo.png';
+//MATERIAL UI END//
 
 const Nav = () => {
-
-  const darkTheme = createTheme({
-    palette: {
-      mode: 'dark',
-    },
-  });
 
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 

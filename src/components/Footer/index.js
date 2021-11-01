@@ -3,28 +3,13 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
-// material UI
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
 
 const Footer = () => {
 
-  //Color Theme
-  const theme = createTheme({
-    palette: {
-      primary: {
-        main: '#001E3C'
-      },
-      secondary: {
-        main: '#2F3A45'
-      }
-    }
-  })
 
   function Copyright() {
     return (
-      <Typography variant="body2" color='#FFFFFF'>
+      <Typography color='#FFFFFF'>
         {'© '}
         {new Date().getFullYear()}
         {' - Chase Brackeen'}
@@ -53,12 +38,13 @@ const Footer = () => {
         <Typography variant="body1">Sticky footer placeholder.</Typography>
       </Container>
       <Box
+        
         component="footer"
         sx={{
           py: 3,
           px: 2,
           mt: 'auto',
-          backgroundColor: '#2F3A45'
+          // backgroundColor: '#2F3A45'
         }}
       >
         <Container maxWidth="sm">
