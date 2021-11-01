@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Box from '@mui/material/Box';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -17,17 +18,17 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
   
   return (
-    <div>
+    <Box bgcolor="primary.main">
       <Nav 
       pages = { pages }
       currentPage = { currentPage }
       setCurrentPage = { setCurrentPage }
       ></Nav>
-      <main>
+      <Box>
         { currentPage.component }
-      </main>
+      </Box>
       <Footer />
-    </div>
+    </Box>
   );
 }
 
