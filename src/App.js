@@ -6,7 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 
 function App() {
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
     //SWITCH STATEMENT TO RETURN DESIRED COMPONENT
@@ -26,11 +26,12 @@ function App() {
     <div>
       <Nav> 
       currentPage = { currentPage }
-      handlePageChange = { handlePageChange }
+      setCurrentPage = { setCurrentPage }
       </Nav>
       <main>
         { renderPage() }
       </main>
+      <Footer />
     </div>
   );
 }

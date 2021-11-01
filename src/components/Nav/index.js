@@ -14,15 +14,16 @@ import { useTheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 //MATERIAL UI END//
 
-const Nav = () => {
-  
+const Nav = props => {
+  const { history } = props;
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const handleClick = currentPage => {
+    history.push(currentPage);
     setAnchorEl(null);
   };
 
@@ -64,12 +65,12 @@ const Nav = () => {
                     horizontal: 'right',
                   }}
                   open={Boolean(anchorEl)}
-                  onClose={handleClose}
+                  onClose={() => setAnchorEl(null)}
                 >
-                  <MenuItem onClick={handleClose}>About</MenuItem>
-                  <MenuItem onClick={handleClose}>Projects</MenuItem>
-                  <MenuItem onClick={handleClose}>Contact</MenuItem>
-                  <MenuItem onClick={handleClose}>Resume</MenuItem>
+                  <MenuItem onClick={() => handleClick('/About')}>About</MenuItem>
+                  <MenuItem onClick={() => handleClick('/Projects')}>Projects</MenuItem>
+                  <MenuItem onClick={() => handleClick('/Contact')}>Contact</MenuItem>
+                  <MenuItem onClick={() => handleClick()}>Resume</MenuItem>
                 </Menu>
                 </>
                 ) : (
