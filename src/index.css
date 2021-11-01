@@ -29,30 +29,11 @@ code {
     monospace;
 }
 
-/* NAVBAR START */
+/* TITLE FONTS */
 
-.nav-font {
-  font-family: 'kionaregular';
-  font-weight: bolder;
-  font-style: normal;
-  font-size: x-large;
+h1, h2, h3 {
+  font-family: 'kionaregular' !important;
+  font-weight: bolder !important;
+  font-style: normal !important;
 }
 
-.navbar {
-  padding-right: 100px;
-  padding-left: 100px;
-}
-
-.nav-link {
-  margin-right: 25px;
-}
-
-
-
-/* NAVBAR END */
-
-/* BODY */
-
-body {
-  background-color: gb(0, 30, 60);
-}

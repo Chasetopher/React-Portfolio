@@ -38,13 +38,12 @@ const Footer = () => {
         <Typography variant="body1">Sticky footer placeholder.</Typography>
       </Container>
       <Box
-        
         component="footer"
         sx={{
           py: 3,
           px: 2,
           mt: 'auto',
-          // backgroundColor: '#2F3A45'
+          backgroundColor: '#2F3A45'
         }}
       >
         <Container maxWidth="sm">
