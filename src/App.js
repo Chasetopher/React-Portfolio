@@ -1,32 +1,35 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import About from './components/About';
 import Projects from './components/Projects';
 
-// //Color Theme
-  // const theme = createTheme({
-  //   palette: {
-  //     primary: {
-  //       main: '#001E3C'
-  //     },
-  //     secondary: {
-  //       main: '#2F3A45'
-  //     }
-  //   }
-  // })
-
 function App() {
+  const [currentPage, handlePageChange] = useState('Home');
+
+  const renderPage = () => {
+    //SWITCH STATEMENT TO RETURN DESIRED COMPONENT
+    switch (currentPage) {
+      case 'About':
+        return <About />;
+      case 'Projects':
+        return <Projects />
+      case 'Contact':
+        return <Contact />
+      default:
+        return <About />
+    }
+  }
   
   return (
     <div>
-      <Nav />
+      <Nav> 
+      currentPage = { currentPage }
+      handlePageChange = { handlePageChange }
+      </Nav>
       <main>
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
+        { renderPage() }
       </main>
     </div>
   );
