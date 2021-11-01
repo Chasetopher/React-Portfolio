@@ -4,32 +4,27 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import About from './components/About';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [pages] = useState([
+    { name: 'About', component: <About /> },
+    { name: 'Projects', component: <Projects /> },
+    { name: 'Contact', component: <Contact /> },
+    { name: 'Resume', component: <Resume /> }
+  ]);
 
-  const renderPage = () => {
-    //SWITCH STATEMENT TO RETURN DESIRED COMPONENT
-    switch (currentPage) {
-      case 'About':
-        return <About />;
-      case 'Projects':
-        return <Projects />
-      case 'Contact':
-        return <Contact />
-      default:
-        return <About />
-    }
-  }
+  const [currentPage, setCurrentPage] = useState(pages[0]);
   
   return (
     <div>
-      <Nav> 
+      <Nav 
+      pages = { pages }
       currentPage = { currentPage }
       setCurrentPage = { setCurrentPage }
-      </Nav>
+      ></Nav>
       <main>
-        { renderPage() }
+        { currentPage.component }
       </main>
       <Footer />
     </div>

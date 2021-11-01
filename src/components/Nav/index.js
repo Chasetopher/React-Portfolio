@@ -14,18 +14,21 @@ import { useTheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 //MATERIAL UI END//
 
-const Nav = props => {
-  const { history } = props;
+const Nav = (props) => {
+  const {
+    pages = [],
+    setCurrentPage
+  } = props
+
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClick = currentPage => {
-    history.push(currentPage);
-    setAnchorEl(null);
-  };
+  // const handleClick = (currentPage) => {
+  //   setAnchorEl(null);
+  // };
 
   //set breakpoints more mobile responsiveness
   const theme = useTheme();
@@ -67,19 +70,19 @@ const Nav = props => {
                   open={Boolean(anchorEl)}
                   onClose={() => setAnchorEl(null)}
                 >
-                  <MenuItem onClick={() => handleClick('/About')}>About</MenuItem>
-                  <MenuItem onClick={() => handleClick('/Projects')}>Projects</MenuItem>
-                  <MenuItem onClick={() => handleClick('/Contact')}>Contact</MenuItem>
-                  <MenuItem onClick={() => handleClick()}>Resume</MenuItem>
+                  <MenuItem onClick={() => setCurrentPage(pages[0])}>About</MenuItem>
+                  <MenuItem onClick={() => setCurrentPage(pages[1])}>Projects</MenuItem>
+                  <MenuItem onClick={() => setCurrentPage(pages[2])}>Contact</MenuItem>
+                  <MenuItem onClick={() => setCurrentPage(pages[3])}>Resume</MenuItem>
                 </Menu>
                 </>
                 ) : (
                   //ELSE, USE BUTTONS
                   <>
-                  <Button color="inherit">About</Button>
-                  <Button color="inherit">Projects</Button>
-                  <Button color="inherit">Contact</Button>
-                  <Button color="inherit">Resume</Button>
+                  <Button color="inherit" onClick={() => setCurrentPage(pages[0])}>About</Button>
+                  <Button color="inherit" onClick={() => setCurrentPage(pages[1])}>Projects</Button>
+                  <Button color="inherit" onClick={() => setCurrentPage(pages[2])}>Contact</Button>
+                  <Button color="inherit" onClick={() => setCurrentPage(pages[3])}>Resume</Button>
                   </>
               )}
             </div>
