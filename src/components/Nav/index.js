@@ -26,10 +26,6 @@ const Nav = (props) => {
     setAnchorEl(event.currentTarget);
   };
 
-  // const handleClick = (currentPage) => {
-  //   setAnchorEl(null);
-  // };
-
   //set breakpoints more mobile responsiveness
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));

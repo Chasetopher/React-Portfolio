@@ -5,14 +5,14 @@ import Grid from '@mui/material/Grid';
 
 const About = () => {
     return (
-        <Box>
-            <Grid container spacing={2} columns={16}>
-                <Grid item s={16} md={8}>
-                    <Typography variant="h2" color="common.white" align="center">
+        <Box sx={{ mt: 35}}>
+            <Grid container spacing={2} columns={16} justifyContent="center">
+                <Grid item s={16} md={8} sx={{ display: { sm: 'none', md: 'block' } }}>
+                    <Typography variant="h1" color="common.white" align="center">
                         Test About title
                     </Typography>
                 </Grid>
-                <Grid item s={16} md={8}>
+                <Grid item s={16} md={8} justifyContent="center">
                     <Typography variant="h4" color="common.white" align="center">
                         Test About body
                     </Typography>
