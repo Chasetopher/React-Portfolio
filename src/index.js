@@ -30,6 +30,9 @@ const theme = createTheme({
     },
     common: {
       black: "#e3f2fd"
+    },
+    error: {
+      main: "#e3f2fd"
     }
   }
 })
