@@ -24,6 +24,12 @@ const theme = createTheme({
     secondary: {
       //nav/footer color
       main: "#2F3A45"
+    },
+    text: {
+      primary: "#e3f2fd"
+    },
+    common: {
+      black: "#e3f2fd"
     }
   }
 })
