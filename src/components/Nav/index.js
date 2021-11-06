@@ -1,5 +1,6 @@
 import * as React from 'react';
 import logo from '../../images/logo.png';
+import resume from '../../images/Resume.pdf';
 //MATERIAL UI START//
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -69,7 +70,9 @@ const Nav = (props) => {
                   <MenuItem onClick={() => setCurrentPage(pages[0])}>About</MenuItem>
                   <MenuItem onClick={() => setCurrentPage(pages[1])}>Projects</MenuItem>
                   <MenuItem onClick={() => setCurrentPage(pages[2])}>Contact</MenuItem>
-                  <MenuItem onClick={() => setCurrentPage(pages[3])}>Resume</MenuItem>
+                  <a href={resume} style={{ textDecoration: 'none' }}>
+                  <MenuItem>Resume</MenuItem>
+                  </a>
                 </Menu>
                 </>
                 ) : (
@@ -78,7 +81,9 @@ const Nav = (props) => {
                   <Button className="btn" color="error" onClick={() => setCurrentPage(pages[0])}>About</Button>
                   <Button className="btn" color="error" onClick={() => setCurrentPage(pages[1])}>Projects</Button>
                   <Button className="btn" color="error" onClick={() => setCurrentPage(pages[2])}>Contact</Button>
-                  <Button className="btn" color="error" onClick={() => setCurrentPage(pages[3])}>Resume</Button>
+                  <a href={resume} style={{ textDecoration: 'none' }}>
+                  <Button className="btn" color="error">Resume</Button>
+                  </a>
                   </>
               )}
             </div>

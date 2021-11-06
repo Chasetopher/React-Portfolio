@@ -50,7 +50,7 @@ const Contact = () => {
                                     focused
                                 />
                             </Grid>
-                            <Grid xs={12} item>
+                            <Grid sx={{ mt: 0.25 }} xs={12} item>
                                 <Button type="submit" variant="contained" color="secondary" fullWidth>
                                     Submit
                                 </Button>

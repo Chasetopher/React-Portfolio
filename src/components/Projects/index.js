@@ -24,11 +24,11 @@ const Projects = () => {
         <Box p={5} justifyContent="center">
 
         {/*CARD CONTAINER START*/}
-        <Grid container spacing={5} columns={12} align="center">
+        <Grid sx={{ mb: 20 }} container spacing={5} columns={12} align="center">
 
         {/*PAGE TITLE*/}
         <Grid item xs={12}>
-        <Typography gutterBottom variant="h1" component="h1" align="center" color="error">
+        <Typography variant="h1" component="h1" align="center" color="error">
             Projects
         </Typography>
         </Grid>

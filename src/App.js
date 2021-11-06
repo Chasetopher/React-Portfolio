@@ -18,7 +18,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
   
   return (
-    <Box bgcolor="primary.main">
+    <Box className="main" bgcolor="primary.main">
       <Nav 
       pages = { pages }
       currentPage = { currentPage }
