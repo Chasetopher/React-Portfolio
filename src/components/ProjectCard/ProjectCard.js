@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea, CardActions, Grid, IconButton } from '@mui/material';
+import { CardActionArea, CardActions, IconButton } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import HttpIcon from '@mui/icons-material/Http';

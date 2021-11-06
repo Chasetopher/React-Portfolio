@@ -61,12 +61,12 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/project-1" target="_blank">
+                        <a href="https://github.com/Chasetopher/project-1" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="https://pfizzz.github.io/project-1/" target="_blank">
+                        <a href="https://pfizzz.github.io/project-1/" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
@@ -103,12 +103,12 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/deep-blue" target="_blank">
+                        <a href="https://github.com/Chasetopher/deep-blue" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="https://deep-blue-project-2.herokuapp.com/" target="_blank">
+                        <a href="https://deep-blue-project-2.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
@@ -145,12 +145,12 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/README-Generator" target="_blank">
+                        <a href="https://github.com/Chasetopher/README-Generator" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="https://drive.google.com/file/d/10FI2FYqFt72Gp_ynpfOethz2nKoR0yxT/view" target="_blank">
+                        <a href="https://drive.google.com/file/d/10FI2FYqFt72Gp_ynpfOethz2nKoR0yxT/view" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
@@ -186,12 +186,12 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/deep-thoughts" target="_blank">
+                        <a href="https://github.com/Chasetopher/deep-thoughts" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="" target="_blank">
+                        <a href="https://github.com/Chasetopher/deep-thoughts" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
@@ -227,12 +227,12 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/WorkDayScheduler" target="_blank">
+                        <a href="https://github.com/Chasetopher/WorkDayScheduler" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="https://chasetopher.github.io/WorkDayScheduler/" target="_blank">
+                        <a href="https://chasetopher.github.io/WorkDayScheduler/" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
@@ -267,12 +267,12 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/pizza-hunt" target="_blank">
+                        <a href="https://github.com/Chasetopher/pizza-hunt" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="" target="_blank">
+                        <a href="https://github.com/Chasetopher/pizza-hunt" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
