@@ -1,5 +1,5 @@
 import * as React from 'react';
-import logo from '../../assets/images/logo.png';
+import logo from '../../images/logo.png';
 //MATERIAL UI START//
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -44,7 +44,7 @@ const Nav = (props) => {
                 <IconButton
                   size="large"
                   edge="start"
-                  color="inherit"
+                  color="error"
                   aria-label="menu"
                   sx={{ mr: 2 }}
                   onClick={handleMenu}

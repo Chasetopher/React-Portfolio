@@ -1,4 +1,4 @@
-import * as React from 'react';
+import { React, useState } from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -18,12 +18,12 @@ const useStyles = makeStyles({
 })
 
 
-const ProjectCard = (projects) => {
+const ProjectCard = () => {
     const classes = useStyles();
 
     const [projects] = useState([
         {
-            image: './src/assets/images/chillcover.gif',
+            image: '../../images/chillcover.gif',
             title: '&Chill',
             description: `This front end web application uses JavaScript and Materilaze 
             to pull data from 2 third party APIs. The user can select a movie 
@@ -34,7 +34,7 @@ const ProjectCard = (projects) => {
             liveUrl: 'https://chasetopher.github.io/project-1/'
         },
         {
-            image: './src/assets/images/deep-blue.png',
+            image: '../../images/deep-blue.png',
             title: 'Deep Blue',
             description: `This full stack web application combines JavaScript, Bootstrap, Handlebars
             Node, Express, and Sequelize to build an inventory management database which 
@@ -44,11 +44,14 @@ const ProjectCard = (projects) => {
             liveUrl: 'https://deep-blue-project-2.herokuapp.com/'
         },
         {
-            image: './src/assets/images/coming-soon.jpg',
-            title: 'Coming Soon',
-            description: 'Coming Soon',
-            github: '',
-            liveUrl: ''
+            image: '../../images/readme-generator.png',
+            title: 'README Generator',
+            description: `This simple Node.js application uses inquirer to prompt the user in order to determine 
+            which categories they would like to include and allows them to input the information that 
+            they would like to include in those fields. After the user goes through all of the prompts, 
+            a README.md file is generated.`,
+            github: 'https://github.com/Chasetopher/README-Generator',
+            liveUrl: 'https://drive.google.com/file/d/10FI2FYqFt72Gp_ynpfOethz2nKoR0yxT/view'
         },
         {
             image: './src/assets/images/coming-soon.jpg',

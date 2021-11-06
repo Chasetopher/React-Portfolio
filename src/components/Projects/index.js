@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
+import Box from '@mui/material/Box';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
@@ -10,25 +11,35 @@ import HttpIcon from '@mui/icons-material/Http';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 345,
+        maxWidth: 550,
     },
     media: {
-        height: 140
+        height: 240,
     }
 })
 
 const Projects = () => {
     const classes = useStyles();
     return (
-        <div>
+        <Box p={5} justifyContent="center">
+
+        {/*CARD CONTAINER START*/}
+        <Grid container spacing={5} columns={12} align="center">
+
+        {/*PAGE TITLE*/}
+        <Grid item xs={12}>
+        <Typography gutterBottom variant="h1" component="h1" align="center" color="error">
+            Projects
+        </Typography>
+        </Grid>
             {/*PROJECT 1*/}
-            <h1>Projects Page</h1>
+            <Grid item xs={12} md={6} lg={4}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image="./assets/images/chillcover.gif"
+                        image={require ("../../images/chillcover.gif")}
                         title="&Chill"
                         alt="&Chill"
                     />
@@ -57,15 +68,17 @@ const Projects = () => {
                     </IconButton>
                 </CardActions>
             </Card>
+            </Grid>
 
             {/*PROJECT 2*/}
             
+            <Grid item xs={12} md={6} lg={4}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image="./assets/images/deep-blue.png"
+                        image={require ("../../images/deep-blue.png")}
                         title="Deep Blue"
                         alt="Deep Blue"
                     />
@@ -93,26 +106,31 @@ const Projects = () => {
                     </IconButton>
                 </CardActions>
             </Card>
+            </Grid>
 
             {/*PROJECT 3*/}
             
+            <Grid item xs={12} md={6} lg={4}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image=""
-                        title=""
-                        alt=""
+                        image={require ('../../images/readme-generator.png')}
+                        title="README Generator"
+                        alt="README Generator"
                     />
                     <CardContent>
                         {/*TITLE*/}
                         <Typography gutterBottom variant="h5" component="h2">
-                            Project Title
+                            README Generator
                         </Typography>
                         {/*DESCRIPTION*/}
                         <Typography variant="body2" component="p">
-                            project descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject description
+                            This simple Node.js application uses inquirer to prompt the user in order to determine 
+                            which categories they would like to include and allows them to input the information that 
+                            they would like to include in those fields. After the user goes through all of the prompts, 
+                            a README.md file is generated.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -126,26 +144,30 @@ const Projects = () => {
                     </IconButton>
                 </CardActions>
             </Card>
+            </Grid>
 
             {/*PROJECT 4*/}
             
+            <Grid item xs={12} md={6} lg={4}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image=""
-                        title=""
-                        alt=""
+                        image={require ('../../images/deep-thoughts.png')}
+                        title="Deep Thoughts"
+                        alt="Deep Thoughts"
                     />
                     <CardContent>
                         {/*TITLE*/}
                         <Typography gutterBottom variant="h5" component="h2">
-                            Project Title
+                            Deep Thoughts
                         </Typography>
                         {/*DESCRIPTION*/}
                         <Typography variant="body2" component="p">
-                            project descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject description
+                            Deep Thoughts is a basic full stack social media platform using React and 
+                            GraphQL. Its features include allowing the user to log in and out, view and make posts, 
+                            react to posts, and add friends. 
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -159,26 +181,30 @@ const Projects = () => {
                     </IconButton>
                 </CardActions>
             </Card>
+            </Grid>
 
             {/*PROJECT 5*/}
             
+            <Grid item xs={12} md={6} lg={4}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image=""
-                        title=""
-                        alt=""
+                        image={require ('../../images/work-scheduler.png')}
+                        title="Work Day Scheduler"
+                        alt="Work Day Scheduler"
                     />
                     <CardContent>
                         {/*TITLE*/}
                         <Typography gutterBottom variant="h5" component="h2">
-                            Project Title
+                            Work Day Scheduler
                         </Typography>
                         {/*DESCRIPTION*/}
                         <Typography variant="body2" component="p">
-                            project descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject description
+                            Front end application that uses JavaScript, jQuery, Bootstrap, and Moment.js to display time blocks 
+                            from 9 to 5. It allows users to save tasks that need to be completed throughout the day 
+                            and will change the color of the time blocks depending on the current time of day.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -192,26 +218,29 @@ const Projects = () => {
                     </IconButton>
                 </CardActions>
             </Card>
+            </Grid>
 
             {/*PROJECT 6*/}
             
+            <Grid item xs={12} md={6} lg={4}>
             <Card className={classes.root}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image=""
-                        title=""
-                        alt=""
+                        image={require ('../../images/pizza-hunt.png')}
+                        title="Pizza Hunt"
+                        alt="Pizza Hunt"
                     />
                     <CardContent>
                         {/*TITLE*/}
                         <Typography gutterBottom variant="h5" component="h2">
-                            Project Title
+                            Pizza Hunt
                         </Typography>
                         {/*DESCRIPTION*/}
                         <Typography variant="body2" component="p">
-                            project descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject descriptionproject description
+                            This full stack application uses JavaScript, Express, and Mongoose to allow users to create their own 
+                            pizza recipes and save them to a MongoDB database. Users can also comment on other people's recipes.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -225,7 +254,10 @@ const Projects = () => {
                     </IconButton>
                 </CardActions>
             </Card>
-        </div>
+            </Grid>
+        </Grid>
+        {/*CARD CONTAINER END*/}
+        </Box>
     )
 }
 

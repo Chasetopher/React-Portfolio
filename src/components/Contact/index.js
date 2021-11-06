@@ -7,7 +7,7 @@ const Contact = () => {
 
     return (
         <div>
-            <Typography gutterBottom variant="h2" align="center">
+            <Typography gutterBottom variant="h1" component="h1" align="center" color="error">
                 Contact
             </Typography>
             <Box style={{ maxWidth: 650, margin: "0 auto", padding: "20px 5px"}}>

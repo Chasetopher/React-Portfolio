@@ -8,12 +8,12 @@ const About = () => {
         <Box sx={{ mt: 35}}>
             <Grid container spacing={2} columns={16} justifyContent="center">
                 <Grid item s={16} md={8} sx={{ display: { sm: 'none', md: 'block' } }}>
-                    <Typography variant="h1" color="common.white" align="center">
+                    <Typography variant="h1" color="error" align="center">
                         Test About title
                     </Typography>
                 </Grid>
                 <Grid item s={16} md={8} justifyContent="center">
-                    <Typography variant="h4" color="common.white" align="center">
+                    <Typography variant="h4" color="error" align="center">
                         Test About body
                     </Typography>
                 </Grid>
