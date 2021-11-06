@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.def81194.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.0c3ff3c6.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.0c3ff3c6.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
+    "static/css/2.e3c5ea6a.chunk.css": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css",
+    "static/js/2.44432887.chunk.js": "/React-Portfolio/static/js/2.44432887.chunk.js",
+    "static/js/2.44432887.chunk.js.map": "/React-Portfolio/static/js/2.44432887.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.6404ba86c9d41ce338a144918e8c1743.js": "/React-Portfolio/precache-manifest.6404ba86c9d41ce338a144918e8c1743.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/2.e3c5ea6a.chunk.css.map": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css.map",
+    "static/css/main.def81194.chunk.css.map": "/React-Portfolio/static/css/main.def81194.chunk.css.map",
+    "static/js/2.44432887.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.44432887.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.73e7acc0.pdf",
+    "static/media/chillcover.gif": "/React-Portfolio/static/media/chillcover.d55559f9.gif",
+    "static/media/deep-blue.png": "/React-Portfolio/static/media/deep-blue.1a62f875.png",
+    "static/media/deep-thoughts.png": "/React-Portfolio/static/media/deep-thoughts.b1fe04d0.png",
+    "static/media/index.css": "/React-Portfolio/static/media/kiona-regular-webfont.4ff74299.woff",
+    "static/media/personal-photo.jpeg": "/React-Portfolio/static/media/personal-photo.3bfbb3e6.jpeg",
+    "static/media/pizza-hunt.png": "/React-Portfolio/static/media/pizza-hunt.27245fcb.png",
+    "static/media/readme-generator.png": "/React-Portfolio/static/media/readme-generator.f4a4ecaa.png",
+    "static/media/300.css": "/React-Portfolio/static/media/roboto-vietnamese-300-normal.d47048a6.woff2",
+    "static/media/400.css": "/React-Portfolio/static/media/roboto-vietnamese-400-normal.756af8e5.woff2",
+    "static/media/500.css": "/React-Portfolio/static/media/roboto-vietnamese-500-normal.b32ad0e3.woff2",
+    "static/media/700.css": "/React-Portfolio/static/media/roboto-vietnamese-700-normal.371c52ef.woff2",
+    "static/media/work-scheduler.png": "/React-Portfolio/static/media/work-scheduler.eeeb6fd1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.266d4783.js",
+    "static/css/2.e3c5ea6a.chunk.css",
+    "static/js/2.44432887.chunk.js",
+    "static/css/main.def81194.chunk.css",
+    "static/js/main.0c3ff3c6.chunk.js"
+  ]
+}
