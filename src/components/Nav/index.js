@@ -75,10 +75,10 @@ const Nav = (props) => {
                 ) : (
                   //ELSE, USE BUTTONS
                   <>
-                  <Button color="inherit" onClick={() => setCurrentPage(pages[0])}>About</Button>
-                  <Button color="inherit" onClick={() => setCurrentPage(pages[1])}>Projects</Button>
-                  <Button color="inherit" onClick={() => setCurrentPage(pages[2])}>Contact</Button>
-                  <Button color="inherit" onClick={() => setCurrentPage(pages[3])}>Resume</Button>
+                  <Button className="btn" color="error" onClick={() => setCurrentPage(pages[0])}>About</Button>
+                  <Button className="btn" color="error" onClick={() => setCurrentPage(pages[1])}>Projects</Button>
+                  <Button className="btn" color="error" onClick={() => setCurrentPage(pages[2])}>Contact</Button>
+                  <Button className="btn" color="error" onClick={() => setCurrentPage(pages[3])}>Resume</Button>
                   </>
               )}
             </div>

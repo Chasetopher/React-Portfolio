@@ -52,7 +52,29 @@ h1, h2, h3 {
   width: auto;
 }
 
+/*NAV BUTTONS*/
+
+.btn {
+  font-size: 1.5rem !important;
+}
+
 /*MEDIA QUERY TO CHANGE LOGO SIZE ON SMALLER SCREENS*/
+
+@media only screen and (max-width:1500px) {
+  .bio {
+    margin-top: 40px !important;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .btn {
+    font-size: 1.25rem !important;
+  }
+
+  .tech {
+    margin-top: 40px !important;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .logo {

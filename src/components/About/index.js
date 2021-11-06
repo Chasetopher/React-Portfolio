@@ -15,20 +15,20 @@ const About = () => {
                     </Typography>
                 </Grid>
 
-                <Grid item xs={16} lg={8} align="center">
+                <Grid item xs={16} lg={5} align="center">
                     <img src={photo} class="headshot" alt="" />
                 </Grid>
 
-                <Grid sx={{ p: 7 }} item xs={16} lg={8} className="bio">
+                <Grid sx={{ p: 7, mt: 15 }} item xs={16} lg={5} className="bio">
                     <Typography variant="h4" color="error" align="center">
                         I am a full stack developer who is passionate about designing 
-                        performant mobile first web applications using the lates web technologies.
+                        performant mobile first web applications using the latest web technologies.
                     </Typography>
                 </Grid>
 
-                <Grid item xs={16} justifyContent="center">
+                <Grid item className="tech" xs={16} sx={{ mt: 10 }} justifyContent="center">
 
-                    <Typography sx={{ mt: 1 }} gutterBottom variant="h2" color="error" align="center">
+                    <Typography gutterBottom variant="h2" color="error" align="center">
                         Technologies
                     </Typography>
 
