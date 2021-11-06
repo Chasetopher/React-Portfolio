@@ -6,7 +6,7 @@ import { Typography, CardContent, Grid, Button } from '@mui/material'
 const Contact = () => {
 
     return (
-        <div>
+        <Box sx={{ mt: 10 }}>
             <Typography gutterBottom variant="h1" component="h1" align="center" color="error">
                 Contact
             </Typography>
@@ -59,7 +59,7 @@ const Contact = () => {
                     </form>
                 </CardContent>
             </Box>
-        </div>
+        </Box>
     )
 }
 

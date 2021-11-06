@@ -70,7 +70,7 @@ const Nav = (props) => {
                   <MenuItem onClick={() => setCurrentPage(pages[0])}>About</MenuItem>
                   <MenuItem onClick={() => setCurrentPage(pages[1])}>Projects</MenuItem>
                   <MenuItem onClick={() => setCurrentPage(pages[2])}>Contact</MenuItem>
-                  <a href={resume} style={{ textDecoration: 'none' }}>
+                  <a href={resume} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                   <MenuItem>Resume</MenuItem>
                   </a>
                 </Menu>
@@ -81,7 +81,7 @@ const Nav = (props) => {
                   <Button className="btn" color="error" onClick={() => setCurrentPage(pages[0])}>About</Button>
                   <Button className="btn" color="error" onClick={() => setCurrentPage(pages[1])}>Projects</Button>
                   <Button className="btn" color="error" onClick={() => setCurrentPage(pages[2])}>Contact</Button>
-                  <a href={resume} style={{ textDecoration: 'none' }}>
+                  <a href={resume} style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
                   <Button className="btn" color="error">Resume</Button>
                   </a>
                   </>

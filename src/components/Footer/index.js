@@ -32,10 +32,6 @@ const Footer = () => {
         <Grid container justifyContent="center">
           <Grid item>
             <Container>
-              <Copyright />
-            </Container>
-
-            <Container>
               <IconButton className="social" aria-label="GitHub">
                 <a href="https://github.com/Chasetopher" target="_blank" rel="noopener noreferrer">
                   <GitHubIcon fontSize="large" color="error" />
@@ -51,6 +47,9 @@ const Footer = () => {
                   <AlternateEmailIcon fontSize="large" color="error" />
                 </a>
               </IconButton>
+            </Container>
+            <Container>
+              <Copyright />
             </Container>
           </Grid>
         </Grid>

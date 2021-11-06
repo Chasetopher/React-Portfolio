@@ -21,14 +21,14 @@ const useStyles = makeStyles({
 const Projects = () => {
     const classes = useStyles();
     return (
-        <Box p={5} justifyContent="center">
+        <Box sx={{ mt: 10, p: 5 }} justifyContent="center">
 
         {/*CARD CONTAINER START*/}
         <Grid sx={{ mb: 20 }} container spacing={5} columns={12} align="center">
 
         {/*PAGE TITLE*/}
         <Grid item xs={12}>
-        <Typography variant="h1" component="h1" align="center" color="error">
+        <Typography gutterBottom variant="h1" component="h1" align="center" color="error">
             Projects
         </Typography>
         </Grid>
