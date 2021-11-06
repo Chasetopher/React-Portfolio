@@ -44,3 +44,31 @@ h1, h2, h3 {
   width: auto;
   padding: 10px;
 }
+
+/*PERSONAL HEADSHOT PHOTO*/
+
+.headshot {
+  height: 400px;
+  width: auto;
+}
+
+/*MEDIA QUERY TO CHANGE LOGO SIZE ON SMALLER SCREENS*/
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 250px;
+    height: auto;
+  }
+
+  .bio {
+    padding: 10px !important;
+  }
+
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  h2 {
+    font-size: 2.75rem !important;
+  }
+}

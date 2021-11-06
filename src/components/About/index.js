@@ -2,16 +2,37 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import photo from '../../images/personal-photo.jpeg';
 
 const About = () => {
     return (
-        <Box sx={{ mt: 35}}>
+        <Box sx={{ mt: 10}} justifyContent="center">
             <Grid container spacing={2} columns={16} justifyContent="center">
-                <Grid item s={16} md={8} sx={{ display: { sm: 'none', md: 'block' } }}>
-                    <Typography variant="h2" color="error" align="center">
+
+                <Grid item xs={16} justifyContent="center">
+                    <Typography gutterBottom variant="h1" component="h1" color="error" align="center">
+                        About
+                    </Typography>
+                </Grid>
+
+                <Grid item xs={16} lg={8} align="center">
+                    <img src={photo} class="headshot" alt="" />
+                </Grid>
+
+                <Grid sx={{ p: 7 }} item xs={16} lg={8} className="bio">
+                    <Typography variant="h4" color="error" align="center">
+                        I am a full stack developer who is passionate about designing 
+                        performant mobile first web applications using the lates web technologies.
+                    </Typography>
+                </Grid>
+
+                <Grid item xs={16} justifyContent="center">
+
+                    <Typography sx={{ mt: 1 }} gutterBottom variant="h2" color="error" align="center">
                         Technologies
                     </Typography>
-                    <Grid item>
+
+                    <Grid item align="center">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" className="devicon" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" className="devicon" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" className="devicon" />
@@ -24,11 +45,6 @@ const About = () => {
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" className="devicon" />
 
                     </Grid>
-                </Grid>
-                <Grid item s={16} md={8} justifyContent="center">
-                    <Typography variant="h4" color="error" align="center">
-                        Test About body
-                    </Typography>
                 </Grid>
             </Grid>
         </Box>

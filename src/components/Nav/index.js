@@ -35,7 +35,7 @@ const Nav = (props) => {
       <AppBar color="secondary" position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <img src={logo} alt="logo" />
+            <img src={logo} className="logo" alt="logo" />
           </Typography>
             <div>              
               { isMobile ? (
