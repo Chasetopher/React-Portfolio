@@ -37,3 +37,10 @@ h1, h2, h3 {
   font-style: normal !important;
 }
 
+/*DEVICON IMAGES*/
+
+.devicon {
+  height: 100px;
+  width: auto;
+  padding: 10px;
+}
