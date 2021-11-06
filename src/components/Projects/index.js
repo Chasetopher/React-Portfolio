@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, CardActions, Grid, IconButton } from '@mui/material';
 import { makeStyles } from '@mui/styles';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import CodeIcon from '@mui/icons-material/Code';
 import HttpIcon from '@mui/icons-material/Http';
 
 const useStyles = makeStyles({
@@ -61,10 +61,14 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <GitHubIcon fontSize="large" color="error" />
+                        <a href="https://github.com/Chasetopher/project-1" target="_blank">
+                            <CodeIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <HttpIcon fontSize="large" color="error" />
+                        <a href="https://pfizzz.github.io/project-1/" target="_blank">
+                            <HttpIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                 </CardActions>
             </Card>
@@ -99,10 +103,14 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <GitHubIcon fontSize="large" color="error" />
+                        <a href="https://github.com/Chasetopher/deep-blue" target="_blank">
+                            <CodeIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <HttpIcon fontSize="large" color="error" />
+                        <a href="https://deep-blue-project-2.herokuapp.com/" target="_blank">
+                            <HttpIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                 </CardActions>
             </Card>
@@ -137,10 +145,14 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <GitHubIcon fontSize="large" color="error" />
+                        <a href="https://github.com/Chasetopher/README-Generator" target="_blank">
+                            <CodeIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <HttpIcon fontSize="large" color="error" />
+                        <a href="https://drive.google.com/file/d/10FI2FYqFt72Gp_ynpfOethz2nKoR0yxT/view" target="_blank">
+                            <HttpIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                 </CardActions>
             </Card>
@@ -174,10 +186,14 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <GitHubIcon fontSize="large" color="error" />
+                        <a href="https://github.com/Chasetopher/deep-thoughts" target="_blank">
+                            <CodeIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <HttpIcon fontSize="large" color="error" />
+                        <a href="" target="_blank">
+                            <HttpIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                 </CardActions>
             </Card>
@@ -211,10 +227,14 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <GitHubIcon fontSize="large" color="error" />
+                        <a href="https://github.com/Chasetopher/WorkDayScheduler" target="_blank">
+                            <CodeIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <HttpIcon fontSize="large" color="error" />
+                        <a href="https://chasetopher.github.io/WorkDayScheduler/" target="_blank">
+                            <HttpIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                 </CardActions>
             </Card>
@@ -247,10 +267,14 @@ const Projects = () => {
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <GitHubIcon fontSize="large" color="error" />
+                        <a href="https://github.com/Chasetopher/pizza-hunt" target="_blank">
+                            <CodeIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <HttpIcon fontSize="large" color="error" />
+                        <a href="" target="_blank">
+                            <HttpIcon fontSize="large" color="error" />
+                        </a>
                     </IconButton>
                 </CardActions>
             </Card>
