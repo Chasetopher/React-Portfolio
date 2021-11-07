@@ -4,6 +4,8 @@
 
 This is my portfolio made for the rutgers coding bootcamp using react and material ui.
 
+Live demo: https://chasetopher.github.io/React-Portfolio/
+
 ## Screenshot
 
 ![About](/src/images/screenshot-about.png)
