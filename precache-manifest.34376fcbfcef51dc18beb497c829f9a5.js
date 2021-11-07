@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cecf9db4d6c4d97fd23836f473d4a4a2",
+    "revision": "bbbf5a302c3358fb96b5523bd7c34682",
     "url": "/React-Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css"
   },
   {
-    "revision": "8a5b89d06b313eeb5974",
+    "revision": "8bc284cbb147b079b497",
     "url": "/React-Portfolio/static/css/main.def81194.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/js/2.44432887.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a5b89d06b313eeb5974",
-    "url": "/React-Portfolio/static/js/main.0c3ff3c6.chunk.js"
+    "revision": "8bc284cbb147b079b497",
+    "url": "/React-Portfolio/static/js/main.ad3c0a12.chunk.js"
   },
   {
     "revision": "bcebe2d38e8b197ca4b9",
     "url": "/React-Portfolio/static/js/runtime-main.266d4783.js"
   },
   {
-    "revision": "73e7acc08f4fc7f17a2a4c1baae72dfb",
-    "url": "/React-Portfolio/static/media/Resume.73e7acc0.pdf"
+    "revision": "8b247cd270262d0c9e3de0f4f6870d1a",
+    "url": "/React-Portfolio/static/media/Chase_Brackeen_Resume.8b247cd2.PDF"
   },
   {
     "revision": "d55559f9836b389ddb0d304dc9d494e3",
