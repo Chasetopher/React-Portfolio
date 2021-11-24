@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "569fe2a004ac06bb4dd9a9a35c9ee066",
+    "revision": "478f988e281b2d42a93d9559dafdd724",
     "url": "/React-Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css"
   },
   {
-    "revision": "ca9ed5068c33ab717b1c",
+    "revision": "71d376ebb68dd1c61429",
     "url": "/React-Portfolio/static/css/main.def81194.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/js/2.44432887.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca9ed5068c33ab717b1c",
-    "url": "/React-Portfolio/static/js/main.bba4f7d7.chunk.js"
+    "revision": "71d376ebb68dd1c61429",
+    "url": "/React-Portfolio/static/js/main.12136060.chunk.js"
   },
   {
     "revision": "bcebe2d38e8b197ca4b9",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/media/Chase_Brackeen_Resume.8b247cd2.PDF"
   },
   {
+    "revision": "c3856d9ddb999f81a94cbbbd8f22ad43",
+    "url": "/React-Portfolio/static/media/OnlyBans.c3856d9d.png"
+  },
+  {
     "revision": "d55559f9836b389ddb0d304dc9d494e3",
     "url": "/React-Portfolio/static/media/chillcover.d55559f9.gif"
   },
   {
     "revision": "1a62f875d810d81ceb885f595e5db1a9",
     "url": "/React-Portfolio/static/media/deep-blue.1a62f875.png"
-  },
-  {
-    "revision": "b1fe04d072796d0baa233d1ee9129a2e",
-    "url": "/React-Portfolio/static/media/deep-thoughts.b1fe04d0.png"
   },
   {
     "revision": "f7a2c73711edbbd6f273a13766491de1",
