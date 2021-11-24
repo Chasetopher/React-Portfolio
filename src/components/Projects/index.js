@@ -166,32 +166,32 @@ const Projects = () => {
                     <CardMedia
                         component="img"
                         className={classes.media}
-                        image={require ('../../images/deep-thoughts.png')}
-                        title="Deep Thoughts"
-                        alt="Deep Thoughts"
+                        image={require ('../../images/OnlyBans.png')}
+                        title="Only Bans"
+                        alt="Only Bans"
                     />
                     <CardContent>
                         {/*TITLE*/}
                         <Typography gutterBottom variant="h5" component="h2">
-                            Deep Thoughts
+                            Only Bans
                         </Typography>
                         {/*DESCRIPTION*/}
                         <Typography variant="body2" component="p">
-                            Deep Thoughts is a basic full stack social media platform using React and 
-                            GraphQL. Its features include allowing the user to log in and out, view and make posts, 
-                            react to posts, and add friends. 
+                            Only Bans is a full stack web application for users who don't want to worry about being banned
+                            from other message boards or social media platforms for expressing their opinions. The project uses 
+                            React, GraphQL, Apollo, Node, and Express.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
                     {/*BUTTONS*/}
                     <IconButton aria-label="GitHub">
-                        <a href="https://github.com/Chasetopher/deep-thoughts" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/zacktmiller92/only-bans" target="_blank" rel="noopener noreferrer">
                             <CodeIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
                     <IconButton aria-label="Live URL">
-                        <a href="https://github.com/Chasetopher/deep-thoughts" target="_blank" rel="noopener noreferrer">
+                        <a href="https://only-bans.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <HttpIcon fontSize="large" color="error" />
                         </a>
                     </IconButton>
