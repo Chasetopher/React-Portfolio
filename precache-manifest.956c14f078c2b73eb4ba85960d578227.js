@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "478f988e281b2d42a93d9559dafdd724",
+    "revision": "5b2d39107c699c129347479a3f4aa8ad",
     "url": "/React-Portfolio/index.html"
   },
   {
-    "revision": "12420bbeacb2b213811f",
+    "revision": "8d428335ec265d2e337c",
     "url": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css"
   },
   {
-    "revision": "71d376ebb68dd1c61429",
+    "revision": "f4c08d2f86dc50ef3ccd",
     "url": "/React-Portfolio/static/css/main.def81194.chunk.css"
   },
   {
-    "revision": "12420bbeacb2b213811f",
-    "url": "/React-Portfolio/static/js/2.44432887.chunk.js"
+    "revision": "8d428335ec265d2e337c",
+    "url": "/React-Portfolio/static/js/2.e90671af.chunk.js"
   },
   {
     "revision": "bfc3e7e0a97125301e8132b6d78b9d38",
-    "url": "/React-Portfolio/static/js/2.44432887.chunk.js.LICENSE.txt"
+    "url": "/React-Portfolio/static/js/2.e90671af.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71d376ebb68dd1c61429",
-    "url": "/React-Portfolio/static/js/main.12136060.chunk.js"
+    "revision": "f4c08d2f86dc50ef3ccd",
+    "url": "/React-Portfolio/static/js/main.f0eee0ed.chunk.js"
   },
   {
     "revision": "bcebe2d38e8b197ca4b9",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio/static/media/Chase_Brackeen_Resume.8b247cd2.PDF"
   },
   {
-    "revision": "c3856d9ddb999f81a94cbbbd8f22ad43",
-    "url": "/React-Portfolio/static/media/OnlyBans.c3856d9d.png"
+    "revision": "6383dde40b5dbcc30cde460b36c3da8c",
+    "url": "/React-Portfolio/static/media/avatar.6383dde4.png"
   },
   {
     "revision": "d55559f9836b389ddb0d304dc9d494e3",
@@ -50,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ff742999f14b4387f06adbb609d4f82",
     "url": "/React-Portfolio/static/media/kiona-regular-webfont.4ff74299.woff"
-  },
-  {
-    "revision": "3bfbb3e62764d27cfe3c4948b7e44299",
-    "url": "/React-Portfolio/static/media/personal-photo.3bfbb3e6.jpeg"
   },
   {
     "revision": "27245fcb333ca2efaeac66fbfc057dc8",
@@ -190,9 +186,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "371c52ef9af49885977af6fbffe823f9",
     "url": "/React-Portfolio/static/media/roboto-vietnamese-700-normal.371c52ef.woff2"
-  },
-  {
-    "revision": "eeeb6fd10384f2ff90e9b2c4665f4297",
-    "url": "/React-Portfolio/static/media/work-scheduler.eeeb6fd1.png"
   }
 ]);

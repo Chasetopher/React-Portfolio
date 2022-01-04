@@ -1,38 +1,36 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.def81194.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.12136060.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.12136060.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.f0eee0ed.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.f0eee0ed.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.266d4783.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.266d4783.js.map",
     "static/css/2.e3c5ea6a.chunk.css": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css",
-    "static/js/2.44432887.chunk.js": "/React-Portfolio/static/js/2.44432887.chunk.js",
-    "static/js/2.44432887.chunk.js.map": "/React-Portfolio/static/js/2.44432887.chunk.js.map",
+    "static/js/2.e90671af.chunk.js": "/React-Portfolio/static/js/2.e90671af.chunk.js",
+    "static/js/2.e90671af.chunk.js.map": "/React-Portfolio/static/js/2.e90671af.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.d049109cab5c081eb2b6cd28a2953406.js": "/React-Portfolio/precache-manifest.d049109cab5c081eb2b6cd28a2953406.js",
+    "precache-manifest.956c14f078c2b73eb4ba85960d578227.js": "/React-Portfolio/precache-manifest.956c14f078c2b73eb4ba85960d578227.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/css/2.e3c5ea6a.chunk.css.map": "/React-Portfolio/static/css/2.e3c5ea6a.chunk.css.map",
     "static/css/main.def81194.chunk.css.map": "/React-Portfolio/static/css/main.def81194.chunk.css.map",
-    "static/js/2.44432887.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.44432887.chunk.js.LICENSE.txt",
+    "static/js/2.e90671af.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e90671af.chunk.js.LICENSE.txt",
     "static/media/Chase_Brackeen_Resume.PDF": "/React-Portfolio/static/media/Chase_Brackeen_Resume.8b247cd2.PDF",
-    "static/media/OnlyBans.png": "/React-Portfolio/static/media/OnlyBans.c3856d9d.png",
+    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.6383dde4.png",
     "static/media/chillcover.gif": "/React-Portfolio/static/media/chillcover.d55559f9.gif",
     "static/media/deep-blue.png": "/React-Portfolio/static/media/deep-blue.1a62f875.png",
     "static/media/index.css": "/React-Portfolio/static/media/kiona-regular-webfont.4ff74299.woff",
-    "static/media/personal-photo.jpeg": "/React-Portfolio/static/media/personal-photo.3bfbb3e6.jpeg",
     "static/media/pizza-hunt.png": "/React-Portfolio/static/media/pizza-hunt.27245fcb.png",
     "static/media/readme-generator.png": "/React-Portfolio/static/media/readme-generator.f4a4ecaa.png",
     "static/media/300.css": "/React-Portfolio/static/media/roboto-vietnamese-300-normal.d47048a6.woff2",
     "static/media/400.css": "/React-Portfolio/static/media/roboto-vietnamese-400-normal.756af8e5.woff2",
     "static/media/500.css": "/React-Portfolio/static/media/roboto-vietnamese-500-normal.b32ad0e3.woff2",
-    "static/media/700.css": "/React-Portfolio/static/media/roboto-vietnamese-700-normal.371c52ef.woff2",
-    "static/media/work-scheduler.png": "/React-Portfolio/static/media/work-scheduler.eeeb6fd1.png"
+    "static/media/700.css": "/React-Portfolio/static/media/roboto-vietnamese-700-normal.371c52ef.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.266d4783.js",
     "static/css/2.e3c5ea6a.chunk.css",
-    "static/js/2.44432887.chunk.js",
+    "static/js/2.e90671af.chunk.js",
     "static/css/main.def81194.chunk.css",
-    "static/js/main.12136060.chunk.js"
+    "static/js/main.f0eee0ed.chunk.js"
   ]
 }
